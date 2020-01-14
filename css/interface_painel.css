@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+div#interface_principal{
+    width: 800px;
+    height: 600px;
+    margin: 30px auto;
+    border: 2px solid #111b31;
+}
+
+header#cabecalho{
+
+    min-height: 212px;
+    width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header#cabecalho img{
+    margin: 1px;
+    margin-bottom: -1px;
+    width: 250px;
+    height: 212px;
+}
+
+section#corpo{
+    text-align: center;
+    width: 800px;
+    height: 300px;
+
+}
+
+section#corpo table{
+    padding: 0px;
+    margin: auto;
+    margin-top: 30px;
+    width: 480px;
+    height: 234px;
+
+}
+
+section#corpo table td{
+    transition: 1s;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+
+}
+
+section#corpo table td:hover{
+    background-color: #111b31;
+    color: aliceblue;
+}
+
+footer#rodape{
+    text-align: center;
+    margin: auto;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+}
