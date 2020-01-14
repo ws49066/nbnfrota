@@ -56,3 +56,16 @@ footer#rodape{
     margin: auto;
     font-family: Verdana,Arial, Helvetica, sans-serif;
 }
+
+div.form-esquerda{
+
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+}
+
+div.form-direita{
+    width: 300px;
+    float: right;
+    border: 1px solid black;
+}
