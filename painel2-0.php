@@ -31,20 +31,36 @@
 
                                             <div class="form-esquerda">
 
+                                                <div class="alinhamento">
                                                     <label>KM/H Inicial: </label>
                                                     <input class=" w3-border w3-margin-bottom" style="width: 120px"
-                                                           type="text" placeholder="km/h" name="kminicial" required>
+                                                           type="text" placeholder="km/h" name="kminicial" required/>
+
                                                     <br><label>Placa: </label>
                                                     <input class=" w3-border w3-margin-bottom" style="width: 120px"
-                                                           type="text" placeholder="placa do veiculo"  name="usrname"
+                                                           type="text" placeholder="placa do veiculo" name="usrname"
                                                            required>
 
+                                                    <br><label>Ano: </label>
+                                                    <input class=" w3-border w3-margin-bottom" style="width: 120px"
+                                                           type="text" placeholder="Ano do veiculo" name="usrname"
+                                                           required>
+                                                </div>
                                             </div>
 
-                                            <div class="form-direita">
-                                                <label>KM/H Final: </label>
-                                                <input class=" w3-border w3-margin-bottom" style="width: 120px"
-                                                       type="text" placeholder="km/h"  disabled name="usrname">
+                                            <div class="form-esquerda">
+                                                <div class="alinhamento">
+                                                    <label>KM/H Final: </label>
+                                                    <input class=" w3-border w3-margin-bottom" style="width: 120px"
+                                                           type="text" placeholder="km/h" disabled name="usrname"/>
+
+                                                    <br><label>Modelo: </label>
+                                                    <input lass=" w3-border w3-margin-bottom" style="width: 120px"
+                                                           type="text" placeholder="placa"  name="usrname">
+
+                                                    <br><label>Combustível: </label>
+
+                                                </div>
                                             </div>
 
 
