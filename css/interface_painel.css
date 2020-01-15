@@ -3,7 +3,7 @@
 body{
     position: absolute;
     background-color: #111b31;
-width: auto;
+    width: auto;
     height: auto;
 
 }
@@ -47,7 +47,7 @@ section#corpo table{
     padding: 0px;
     margin: auto;
     margin-top: 30px;
-    width: 480px;
+    width: 380px;
     height: 234px;
 
 }
@@ -62,6 +62,7 @@ section#corpo table td{
 section#corpo table td:hover{
     background-color: #111b31;
     color: aliceblue;
+    cursor: pointer;
 }
 
 footer#rodape{
@@ -80,13 +81,19 @@ div.form-esquerda{
 
 }
 
+input{
+    text-transform: uppercase;
+}
+
 div.form-esquerda div.alinhamento  {
     text-align: right;
 }
 
 div.rodape{
     
-    border: 1px solid red;
+
     clear:both;
     float: bottom;
 }
+
+

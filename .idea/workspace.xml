@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c02ee85d-65f3-4835-a9a8-2998b16d703f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kmn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/interface_painel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/interface_painel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kminicial.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/painel2-0.php" beforeDir="false" afterPath="$PROJECT_DIR$/painel2-0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painel.php" beforeDir="false" afterPath="$PROJECT_DIR$/painel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painel2-0.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +37,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,15 +53,15 @@
       <recent name="C:\xampp\htdocs\dashboard\nbnfrota" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -72,7 +77,7 @@
       <updated>1578966624262</updated>
       <workItem from="1578966627935" duration="10233000" />
       <workItem from="1579006661873" duration="612000" />
-      <workItem from="1579025819880" duration="6994000" />
+      <workItem from="1579025819880" duration="29089000" />
     </task>
     <servers />
   </component>
