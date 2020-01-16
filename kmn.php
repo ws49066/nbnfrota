@@ -25,7 +25,7 @@ $pass = 'portal';
 $db = 'nbnfrota';
 $connect = mysqli_connect($server,$user,$pass) or trigger_error(mysqli_error(),E_USER_ERROR);
 $db = mysqli_select_db($connect,$db);
-$query = "INSERT INTO frota values ('','$placa','$anoveiculo','$modelo','$proprietario','$requisicao','$litro','$km_inicial',0,'$combustivel','$data',$status)";
+$query = "INSERT INTO km values ('','$placa','$anoveiculo','$modelo','$proprietario','$requisicao','$litro','$km_inicial',0,'$combustivel','$data',$status)";
 mysqli_query($connect,$query) or die('Erro ao conectar');
 echo"<script language='javascript' type='text/javascript'>alert('Kilometragem registrada com sucesso!');window.location.href='painel.php';</script>";
 ?>

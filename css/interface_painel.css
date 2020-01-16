@@ -78,7 +78,6 @@ div.form-esquerda{
     float: left;
     margin-left: 20px;
     position: relative;
-
 }
 
 input{
@@ -90,10 +89,26 @@ div.form-esquerda div.alinhamento  {
 }
 
 div.rodape{
-    
-
     clear:both;
     float: bottom;
 }
 
+div.alinhamento-center{
+    text-align: right;
 
+}
+
+div.form-center{
+    width: 450px;
+    margin-top: 40px;
+}
+
+div.form-center input{
+    width: 200px;
+    text-transform: initial;
+}
+
+div.form-center select{
+    text-transform: none;
+    width: 200px;
+}

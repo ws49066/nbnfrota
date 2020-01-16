@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="16ba00ec-5291-49a6-9829-9b8fa9bf5ea7" name="nbnfrota" url="http://172.16.34.238">
+        <fileTransfer host="172.16.34.238" port="22" rootFolder="/var/www/html/frota" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
